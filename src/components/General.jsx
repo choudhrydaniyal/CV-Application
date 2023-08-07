@@ -39,7 +39,7 @@ export default function General({ onGeneralSubmit }) {
 
   return (
     <div>
-      <h2>Resume Creater</h2>
+      <h2>CV Generator</h2>
       {isEditing ? (
         <form onSubmit={handleSubmit}>
           <label>
